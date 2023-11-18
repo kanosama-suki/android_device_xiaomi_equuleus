@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/equuleus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_equuleus
+PRODUCT_NAME := miku_equuleus
 PRODUCT_DEVICE := equuleus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 Pro
